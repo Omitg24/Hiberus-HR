@@ -1,0 +1,4 @@
+Bundle-Name: bookings-view
+Bundle-SymbolicName: com.liferay.web
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.web.constants

@@ -1,0 +1,12 @@
+dependencies {
+	compileOnly project(":modules:bookings:bookings-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+	compile group: 'com.liferay', name: 'com.liferay.portal.aop.api', version: '1.0.1'	
+}
+
+buildService {
+	apiDir = "../bookings-api/src/main/java"
+}
+
+group = "com.liferay"

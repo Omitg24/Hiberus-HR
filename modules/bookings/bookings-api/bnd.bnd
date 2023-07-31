@@ -1,0 +1,11 @@
+Bundle-Name: bookings-api
+Bundle-SymbolicName: com.liferay.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.liferay.exception,\
+	com.liferay.model,\
+	com.liferay.service,\
+	com.liferay.service.persistence,\
+	com.liferay.validator
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../bookings-service/service.xml
